@@ -1,6 +1,6 @@
 # CGPA Calculator
 
-Library Link: pip install cgpa-calculator==2.2.0
+Library Link: [pip install cgpa-calculator==2.2.0](https://pypi.org/project/cgpa-calculator/)
 
 `pip install cgpa-calculator==2.2.0`
 
