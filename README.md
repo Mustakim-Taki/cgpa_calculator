@@ -33,7 +33,7 @@ Credit Hours (positive integer)<br>
 `calculator.add_course("CSE110", 4.0, 3)` <br>
 `calculator.add_course("CSE370", 3.7, 3)` <br>
 2. Calculate CGPA<br>
-Call the calculate_cgpa method to compute your CGPA:
+Call the calculate_cgpa method to compute your CGPA:<br>
 `calculator.calculate_cgpa()`
 3. Show Course Results
 Display all added courses with their details using the show_results method:
