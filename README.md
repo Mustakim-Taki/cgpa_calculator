@@ -27,10 +27,11 @@ Use the add_course method to add a course with:
 
 Course Name (string)
 GPA (float, 0.0–4.0)
-Credit Hours (positive integer)
-
-`calculator.add_course("CSE110", 4.0, 3)`
-`calculator.add_course("CSE370", 3.7, 3)`
+Credit Hours (positive integer)<br>
+`from cgpa_calc import CGPACalculator`<br>
+`calculator=CGPACalculator()`<br>
+`calculator.add_course("CSE110", 4.0, 3)` <br>
+`calculator.add_course("CSE370", 3.7, 3)` <br>
 2. Calculate CGPA
 Call the calculate_cgpa method to compute your CGPA:
 `calculator.calculate_cgpa()`
