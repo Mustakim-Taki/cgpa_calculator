@@ -1,8 +1,8 @@
 # CGPA Calculator
 
-Library Link: https://pypi.org/project/cgpa-calculator/1.0.0/ 
+Library Link: pip install cgpa-calculator==2.2.0
 
-`pip install cgpa-calculator==1.0.0`
+`pip install cgpa-calculator==2.2.0`
 
 A Python-based CGPA Calculator that helps you manage your courses, calculate your CGPA based on GPAs and credits, and display detailed course-wise results. The tool is simple, efficient, and easy to use.
 
@@ -20,8 +20,8 @@ A Python-based CGPA Calculator that helps you manage your courses, calculate you
 ### Installation
 1. Clone this repository or download the `CGPACalculator.py` file:
    ```bash
-   git clone https://github.com/your-username/cgpa-calculator.git
-   cd cgpa-calculator
+   https://github.com/Mustakim-Taki/cgpa_calculator
+   cd cgpa_calculator
 
 
 Ensure Python is installed and properly configured.<br>
@@ -32,8 +32,9 @@ Use the add_course method to add a course with:
 Course Name (string)
 GPA (float, 0.0–4.0)
 Credit Hours (positive integer)<br>
-`from cgpa_calc import CGPACalculator`<br>
-`calculator=CGPACalculator()`<br>
+`from cgpa_calculator import CGPACalculator`
+`calculator = CGPACalculator()`
+##calculator.add_course(course_name, gpa, credit) 
 `calculator.add_course("CSE110", 4.0, 3)` <br>
 `calculator.add_course("CSE370", 3.7, 3)` <br>
 2. Calculate CGPA<br>
