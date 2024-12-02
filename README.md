@@ -1,5 +1,9 @@
 # CGPA Calculator
 
+Library Link: https://pypi.org/project/cgpa-calculator/1.0.0/ 
+
+`pip install cgpa-calculator==1.0.0`
+
 A Python-based CGPA Calculator that helps you manage your courses, calculate your CGPA based on GPAs and credits, and display detailed course-wise results. The tool is simple, efficient, and easy to use.
 
 ## Features
